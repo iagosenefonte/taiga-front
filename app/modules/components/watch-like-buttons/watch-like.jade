@@ -1,0 +1,27 @@
+.like-watch-container
+    a.active.watch-like-button.like-container(href="", title="Like this project") 
+        span.watch-like-icon
+            include ../../../svg/like.svg
+        span Like
+    a.watch-like-button.watch-container(href="", title="Watch this project")
+        span.watch-like-icon
+            include ../../../svg/watch.svg
+        span Watch
+        span.icon.icon-arrow-up
+    ul.watch-options
+        li
+            a(href="", title="Receive all notifications") 
+                span Receive all notifications
+                span.watch-check
+                    include ../../../svg/check.svg
+        li
+            a(href="", title="Only involved") 
+                span Only involved
+                span.hidden.watch-check
+                    include ../../../svg/check.svg
+        li
+            a(href="", title="Show activity only in timeline") 
+                span Show activity only in timeline
+                span.hidden.watch-check
+                    include ../../../svg/check.svg
+        
