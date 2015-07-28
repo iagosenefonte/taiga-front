@@ -8,7 +8,7 @@
     a.watch-like-button.watch-container.js-watch-button(href="", title="Watch this project", ng-click="vm.toggleWatch = !vm.toggleWatch")
         span.watch-like-icon
             include ../../../svg/watch.svg
-        span(ng-if="!vm.toggleWatch", , translate="PROJECT.WATCH")
+        span(translate="PROJECT.WATCH")
         span.icon.icon-arrow-up
     ul.watch-options(ng-class="{'hidden': !vm.toggleWatch}")
         li
