@@ -9,6 +9,7 @@
 //     span Like
 
 .like-watch-container {
+    padding-bottom: 1rem;
     position: relative;
 }
 
@@ -59,15 +60,20 @@
 }
 
 .watch-options {
-    background: rgba($black, .8);
+    animation: dropdownFade .2s cubic-bezier(.09, 0, .99, .01) alternate;
+    background: rgba($black, .9);
     border-radius: 4px;
     margin: 0;
+    margin-top: 2.5rem;
     min-width: 300px;
     padding: 1rem;
     position: absolute;
     right: 0;
-    top: 2.5rem;
+    top: 0;
     z-index: 99;
+    &.hidden {
+        animation: dropdownFade .2s cubic-bezier(.09, 0, .99, .01) reverse;
+    }
     li {
         margin: 0;
         &:last-child a {
@@ -81,6 +87,9 @@
         display: flex;
         justify-content: space-between;
         padding: .5rem 0;
+        &.active {
+            color: $primary-light;
+        }
     }
     .watch-check {
         height: 1.25rem;
