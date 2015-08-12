@@ -11,6 +11,7 @@
 - i18n.
   - Add polish (pl) translation.
   - Add russian (ru) translation.
+  - Add Portuguese Brazil (ptbr) translation.
 
 ### Misc
 - Improve performance: Show cropped images in timelines.
