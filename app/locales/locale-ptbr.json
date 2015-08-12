@@ -4,8 +4,8 @@
         "NO": "Não",
         "LOADING": "Carregando...",
         "LOADING_PROJECT": "Carregando projetos...",
-        "DATE": "DD MMM AAAA",
-        "DATETIME": "DD MMM AAAA HH:mm",
+        "DATE": "DD MMM YYYY",
+        "DATETIME": "DD MMM YYYY HH:mm",
         "SAVE": "Salvar",
         "CANCEL": "Cancelar",
         "ACCEPT": "Aceitar",
@@ -44,7 +44,7 @@
             "TYPE_URLSTRICT": "Esse valor deve ser uma URL válida.",
             "TYPE_NUMBER": "Esse valor deve ser um número válido.",
             "TYPE_DIGITS": "Esse valor deve ser composto por algarismos.",
-            "TYPE_DATEISO": "TEsse valor deve ser uma data válida (AAAA-MM-DD).",
+            "TYPE_DATEISO": "TEsse valor deve ser uma data válida (YYYY-MM-DD).",
             "TYPE_ALPHANUM": "Esse valor deve ser alphanúmerico.",
             "TYPE_PHONE": "Esse valor deve ser um número válido de telefone.",
             "NOTNULL": "Esse valor não deve ser nulo.",
@@ -63,7 +63,7 @@
             "EQUAL_TO": "Esse valor deve ser o mesmo."
         },
         "PICKERDATE": {
-            "FORMAT": "DD MMM AAAA",
+            "FORMAT": "DD MMM YYYY",
             "IS_RTL": "falso",
             "FIRST_DAY_OF_WEEK": "1",
             "PREV_MONTH": "Mês prévio",
@@ -350,7 +350,7 @@
         "HIDE_DEPRECATED": "- esconder anexos obsoletos",
         "COUNT_DEPRECATED": "({{ counter }} obsoleto)",
         "MAX_UPLOAD_SIZE": "Tamanho máximo de upload is {{maxFileSize}}",
-        "DATE": "DD MMM AAAA [as] hh:mm",
+        "DATE": "DD MMM YYYY [as] hh:mm",
         "ERROR_UPLOAD_ATTACHMENT": "Não fomos aptos a enviar '{{fileName}}'. {{errorMessage}}",
         "TITLE_LIGHTBOX_DELETE_ATTACHMENT": "Excluir anexo...",
         "MSG_LIGHTBOX_DELETE_ATTACHMENT": "o anexo '{{fileName}}'",
@@ -543,7 +543,7 @@
             "HEADERS": "Cabeçalho",
             "PAYLOAD": "Payload",
             "RESPONSE": "Resposta",
-            "DATE": "DD MMM AAAA [ás] hh:mm:ss",
+            "DATE": "DD MMM YYYY [ás] hh:mm:ss",
             "ACTION_HIDE_HISTORY": "(Esconder histórico)",
             "ACTION_HIDE_HISTORY_TITLE": "Esconder detalhes do histórico",
             "ACTION_SHOW_HISTORY": "(Exibir histórico)",
@@ -826,7 +826,7 @@
     },
     "ACTIVITY": {
         "SHOW_ACTIVITY": "Exibir atividade",
-        "DATETIME": "DD MMM AAAA HH:mm",
+        "DATETIME": "DD MMM YYYY HH:mm",
         "SHOW_MORE": "+ Exibir entradas prévias ({{showMore}} mais)",
         "TITLE": "Atividade",
         "REMOVED": "removida",
@@ -940,7 +940,7 @@
         },
         "SPRINTS": {
             "TITLE": "SPRINTS",
-            "DATE": "DD MMM AAAA",
+            "DATE": "DD MMM YYYY",
             "LINK_TASKBOARD": "Quadro de tarefas do Sprint",
             "TITLE_LINK_TASKBOARD": "Ir para o quadro de tarefas de \"{{name}}\"",
             "NUMBER_SPRINTS": "<br/>sprints",
@@ -981,7 +981,7 @@
             "YAXIS_LABEL": "Pontos",
             "OPTIMAL": "Pontos pendentes ideais para o dia {{formattedDate}} deve ser {{roundedValue}}",
             "REAL": "Pontos pendentes ideais para o dia {{formattedDate}} são {{roundedValue}}",
-            "DATE": "DD MMMM AAAA"
+            "DATE": "DD MMMM YYYY"
         }
     },
     "TASK": {
@@ -1210,7 +1210,7 @@
     "WIKI": {
         "PAGE_TITLE": "{{wikiPageName}} - Wiki - {{projectName}}",
         "PAGE_DESCRIPTION": "Última edição feita em {{lastModifiedDate}} (total de {{totalEditions}} edições realizadas) Conteúdo: {{ wikiPageContent }}",
-        "DATETIME": "DD MMM AAAA HH:mm",
+        "DATETIME": "DD MMM YYYY HH:mm",
         "PLACEHOLDER_PAGE": "Escreva sua página da wiki",
         "REMOVE": "Remover essa página da wiki",
         "DELETE_LIGHTBOX_TITLE": "Excluir página da wiki",
